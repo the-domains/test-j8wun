@@ -1,8 +1,19 @@
-typography_spectrum: 0.16056154621765018
+title: Andrey Zhokhov
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.3276690926868469
   brandStrength: 0.9094867708627135
-  lightness: 0.05624398565851152
-  saturation: 0.32766909268684685
   rhythmicContrast: 0.8557524096686393
   brandColors:
     - '#050505'
@@ -10,7 +21,8 @@ color:
     - '#F9E9B7'
     - '#B00700'
     - '#C98942'
-layout_spectrum: 0.5062792950775474
-name: test
-title: Andrey Zhokhov
+  lightness: 0.05624398565851152
+typography_spectrum: 0
 description: Portfolio Presentation
+layout_spectrum: 1
+name: test
